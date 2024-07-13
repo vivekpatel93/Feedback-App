@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar - Login</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <div><a href="#" class="head-text">Login App</a></div>
+        </nav>
+    </header>
+    <main class="front-class">
+        <div class="sidebar">
+            <nav class="menu">
+                <a href="#">Register</a>
+                <a href="#">Login</a>
+                <a href="#">Main</a>
+                <a href="#">Logout</a>
+                <a href="Update.html">Update</a>
+                <a href="AboutMe.html">About Me</a>
+            </nav>
+        </div>
+           
+        <section class="section">
+            <div class="dropdown-menu">
+                <h1>Login</h1>
+                <form action="Login.jsp" method="get">
+                    <div class="mb-3">
+                        <label class="form-label">User Name - </label>
+                        <input type="text" name="username" placeholder="User ID" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password - </label>
+                        <input type="password" name="pwd" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+                <hr class="partation">
+                <p class="text">Please enter your login details!</p>
+            </div>
+        </section>
+    </main>              
+</body>
+
+</html>

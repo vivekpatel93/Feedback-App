@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+}
+
+.head-text {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.front-class {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background: #444;
+    color: #fff;
+    width: 200px;
+    padding: 15px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    transition: background 0.3s ease;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}

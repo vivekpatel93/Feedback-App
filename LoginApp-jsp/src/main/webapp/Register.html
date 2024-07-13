@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login App</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <div><a href="#" class="head-text">Login App</a></div>
+            <!-- <div ><a href="#" class="head-text">Login App</a></div> -->
+        </nav>
+    </header>
+    <main class="front-class">
+        <div class="sidebar">
+            <nav class="menu">
+                <a href="#">Register</a>
+                <a href="Login.html">Login</a>
+                <a href="Main.html">Main</a>
+                <a href="#">Logout</a>
+                <a href="Update.html">Update</a>
+                <a href="AboutMe.html">About Me</a>
+            </nav>
+        </div>
+           
+            <section class="section">
+                <div class="dropdown-menu">
+                  <h1>Register Here</h1>
+                  <form action="Register.jsp" method="get">
+                    <div class="mb-3">
+                      <label class="form-label">UserName - </label>
+                      <input type="text" name="username" placeholder="UserName" required>
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Name - </label>
+                      <input type="text" name="name" placeholder="FirstName SecondName">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Email- </label>
+                      <input type="email" class="form-control" id="exampleDropdownFormEmail1" name="email" placeholder="email@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Password - </label>
+                      <input type="password" class="form-control" id="exampleDropdownFormPassword1" name="pwd" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                  </form>
+                  <hr class="partation">
+                  <p class="text">Please fill correct information !</p>
+                </div>
+              </section>
+            </main>              
+</body>
+
+</html>
